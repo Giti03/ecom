@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Bag</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bag.css">
+ 
+<body>
+    <div class="navbar">
+        <div class="leftside">
+            <div class="logo">
+                <img src="c:/ecom project/organic-store-logo5.svg">
+            </div>
+            <div id="left-details">
+                <div class="box">Everything</div>
+                <div class="box">Groceries</div>
+                <div class="box">Juice</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div id="right-details">
+                <div class="box1">About</div>
+                <div class="box1">Contact</div>
+                <div class="box1">
+                    <a href="product.html" class="bag-icon">  
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="bag-count">0</span>
+                    </a> 
+                </div>
+                <div class="box1" id="user">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-container"></div>
+    <div id="total-container">
+        <p id="total-price">Total: ₹0</p>
+        <button id="checkout-button">Checkout</button>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="common.js"></script>
+    <script src="ecom.js"></script>
+    <script src="bag.js"></script>
+    
+
+</body>
+</html>
