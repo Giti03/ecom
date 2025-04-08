@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Bag</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bag.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="navbar">
+    <div class="leftside">
+      <div class="logo">
+        <img src="C:\Users\user\Desktop\web\e-commerce project\images\organic-store-logo5.svg" alt="Logo">
+      </div>
+    </div>
+    <div class="rightside">
+      <div id="right-details">
+        <a href="index.html" class="box1">Home</a>
+        <div class="box1">
+          <a href="bag.html" class="bag-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="bag-count">0</span>
+          </a>
+        </div>
+        <div class="box1" id="user">
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <main>
+    <h1>My Bag</h1>
+    <div id="bag-items" class="bag-container"></div>
+    <div class="total-section">
+      <h2 id="totalPrice">Total: ₹0</h2>
+    </div>
+  </main>
+  
+  <script src="data.js"></script>
+  <script src="bag.js"></script>
+</body>
+</html>
