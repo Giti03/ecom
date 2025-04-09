@@ -9,7 +9,7 @@ const organicProducts = [
     rating: 4.8,
     supplier: "Nature's Best",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\Almond.webp"
+      "./images/Almond.webp"
   },
   {
     productId: 102,
@@ -21,7 +21,7 @@ const organicProducts = [
     rating: 4.7,
     supplier: "Honey Harvest",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\honey.jpeg"
+      "./images/honey.jpeg"
   },
   {
     productId: 103,
@@ -33,7 +33,7 @@ const organicProducts = [
     rating: 4.9,
     supplier: "Spice Valley",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\turmuric.jpeg"
+      "./images/turmuric.jpeg"
   },
   {
     productId: 104,
@@ -45,7 +45,7 @@ const organicProducts = [
     rating: 4.6,
     supplier: "Tea Time Organics",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\green tea.webp"
+      "./images/green tea.webp"
   },
   {
     productId: 105,
@@ -57,7 +57,7 @@ const organicProducts = [
     rating: 4.5,
     supplier: "Pure Essence Organics",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\coconut oil.jpeg"
+      "./images/coconut oil.jpeg"
   },
   {
     productId: 106,
@@ -69,7 +69,7 @@ const organicProducts = [
     rating: 4.8,
     supplier: "Grain House",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\quinoa.jpeg"
+      "./images/quinoa.jpeg"
   },
   {
     productId: 107,
@@ -81,7 +81,7 @@ const organicProducts = [
     rating: 4.7,
     supplier: "Eco Grain Farms",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\organic-brown-rice.jpg"
+      "./images/organic-brown-rice.jpg"
   },
   {
     productId: 108,
@@ -93,7 +93,7 @@ const organicProducts = [
     rating: 4.4,
     supplier: "Green Leaf Snacks",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\kale chips.jpg"
+      "./images/kale chips.jpg"
   },
   {
     productId: 109,
@@ -105,7 +105,7 @@ const organicProducts = [
     rating: 4.9,
     supplier: "Fresh Fields",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\organic-avocado-500x500.webp"
+      "./images/organic-avocado-500x500.webp"
   },
   {
     productId: 110,
@@ -117,6 +117,6 @@ const organicProducts = [
     rating: 4.7,
     supplier: "Seed Superfoods",
     productImageUrl:
-      "C:\\Users\\user\\Desktop\\web\\e-commerce project\\images\\chiaseeds_1.webp"
+       "./images/chiaseeds_1.webp"
   }
 ];
