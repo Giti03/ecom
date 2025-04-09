@@ -166,3 +166,25 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.more-products {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.more-products-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.more-products-btn:hover {
+    background-color: #388E3C;
+    transform: translateY(-2px);
+}
